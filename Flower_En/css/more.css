@@ -1,0 +1,67 @@
+/*
+-------
+GENERAL
+-------
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+#btnMore {
+  background: #f45f42;
+  border: 0;
+  color: #fff;
+  padding: 15px;
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.3s linear;
+}
+
+#btnMore:hover{
+	background:#e84829;
+	font-size:19px;
+}
+
+
+/*
+----
+TAGS
+----
+*/
+
+
+/*
+-----
+POSTS
+-----
+*/
+
+
+
+.posts .holder {
+  display: none;
+  background: #fff;
+
+  /* margin: 0 0 30px; */
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+
+
+.posts h2 a {
+  color: #333;
+}
+
+.posts h2 a:hover {
+  color: #f45f42;
+}
